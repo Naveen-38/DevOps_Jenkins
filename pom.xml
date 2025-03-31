@@ -16,10 +16,10 @@
 	</properties>
 	<dependencies>
 
-		
+	
 		<dependency>
-			<groupId>maven-war-plugin</groupId>
-			<artifactId>junit</artifactId>
+			<groupId>org.apache.maven.plugins</groupId>
+			<artifactId>maven-war-plugin</artifactId>
 			<version>3.3.2</version>
 			<scope>test</scope>
 		</dependency>
