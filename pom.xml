@@ -8,9 +8,7 @@
 	<name>Java Home myweb</name>
 	<url>http://maven.apache.org</url>
 
-        <artifactId>maven-war-plugin</artifactId>
-        <version>3.3.2</version> 
-	
+       
 	<properties>
 		<docker.image.prefix>kammana</docker.image.prefix>
 		<sonar.host.url>http://18.181.164.81:9000/</sonar.host.url>
@@ -20,9 +18,9 @@
 
 		
 		<dependency>
-			<groupId>junit</groupId>
+			<groupId>maven-war-plugin</groupId>
 			<artifactId>junit</artifactId>
-			<version>3.8.1</version>
+			<version>3.3.2</version>
 			<scope>test</scope>
 		</dependency>
 
